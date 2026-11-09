@@ -1,6 +1,6 @@
 /* ============================================================
    Control de Negocio (Hasana) — Service Worker
-   Versión de interfaz: 1.0.0
+   Versión de interfaz: 1.1.0
 
    - Navegación: red primero (sin caché HTTP); la copia guardada solo
      se usa sin conexión.
@@ -11,7 +11,7 @@
    Cada versión nueva de index.html debe subir el número de CACHE.
    ============================================================ */
 const PREFIJO = 'hasana-cn-';
-const CACHE = PREFIJO + 'v1-1.0.0-20261020';
+const CACHE = PREFIJO + 'v2-1.1.0-20261108';
 const APP_SHELL = ['./', './index.html', './manifest.webmanifest', './icon-192.png', './icon-512.png',
   './apple-touch-icon.png', './gota.png', './logo-hasana.png', './logo-hasana-horizontal.png'];
 
